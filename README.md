@@ -39,3 +39,7 @@ Para el botón externo (pin 2) uso una interrupción hardware por cambio de flan
 Como medida de seguridad frente a bloqueos, uso Watchdog con un tiempo límite de 8 segundos (WDTO_8S) justo al terminar el setup(), desactivándolo primero con wdt_disable() para evitar reinicios durante el arranque. En cada vuelta del loop reinicio el contador con wdt_reset(), asegurando que todo funciona correctamente. Pongo 8 segundos para dar margen a las lecturas de los sensores antes de reiniciar la placa.
 
 Finalmente, todo esto se coordina en el loop() (arranque, espera de cliente, temperatura, selección de productos, preparación, modo administración), permitiendo un funcionamiento fluido y sin bloqueos.
+
+## Esquemático
+<img width="881" height="628" alt="image" src="https://github.com/user-attachments/assets/60e0fe5a-e750-42ec-9b06-119f5d958cda" />
+
