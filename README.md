@@ -33,7 +33,7 @@ El circuito está montado sobre una placa Arduino Mega 2560:
 Para conseguir que el sistema responda rápido, no se quede bloqueado y gestione a la vez los sensores, los botones y la pantalla, combinamos el uso de threads, interrupciones hardware y watchdog.
 
 ### 1. Uso de hilos para organizar las tareas (ArduinoThread)
-Para no llenar el bucle principal (loop) de temporizadores o usar funciones bloqueantes (delay()), uso la librería ArduinoThread junto con un controlador ThreadController. Cada componente se ha separado en su propia clase heredada de Thread, ejecutándose cada una con su propio intervalo de tiempo.
+Para no llenar el bucle principal (loop) de temporizadores o usar funciones bloqueantes (delay()), usamos la librería ArduinoThread junto con un controlador ThreadController. Cada componente se ha separado en su propia clase heredada de Thread, ejecutándose cada una con su propio intervalo de tiempo.
 
 - **HiloLed:** Controla el parpadeo de 3 segundos del LED rojo en el arranque y el aumento progresivo de brillo por PWM del LED azul mientras se prepara el café. Al gestionarlo en este thread, evito usar interrupciones como TimerOne.
 
