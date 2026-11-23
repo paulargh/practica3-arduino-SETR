@@ -30,7 +30,7 @@ El circuito está montado sobre una placa Arduino Mega 2560:
 
 ## Descripción de la solución y los recursos utilizados:
 
-Para conseguir que el sistema responda rápido, no se quede bloqueado y gestione a la vez los sensores, los botones y la pantalla, combino el uso de threads, interrupciones hardware y watchdog.
+Para conseguir que el sistema responda rápido, no se quede bloqueado y gestione a la vez los sensores, los botones y la pantalla, combinamos el uso de threads, interrupciones hardware y watchdog.
 
 ### 1. Uso de hilos para organizar las tareas (ArduinoThread)
 Para no llenar el bucle principal (loop) de temporizadores o usar funciones bloqueantes (delay()), uso la librería ArduinoThread junto con un controlador ThreadController. Cada componente se ha separado en su propia clase heredada de Thread, ejecutándose cada una con su propio intervalo de tiempo.
