@@ -7,7 +7,7 @@ El circuito está montado sobre una placa Arduino Mega 2560:
 
 - **LED2 (Azul):** Conectado al pin PWM 3 (con una resistencia a GND), encargado de aumentar su brillo progresivamente mientras se prepara el café, además de mantenerse fijo en el modo administración.
 
-- **Botón externo:** Conectado al pin digital 2, se utiliza este pin porque soporta interrupciones hardware, para medir pulsaciones largas (de 2–3 s o ≥ 5 s).
+- **Botón externo:** Conectado al pin digital 2, se utiliza este pin porque soporta interrupciones hardware, para medir pulsaciones largas (de 2–3 (s) o ≥ 5 (s)).
 
 - **Sensor de ultrasonidos:** El pin TRIG va conectado al pin digital 9 y el pin ECHO al pin digital 10, además de su alimentación a 5V y GND.
 
