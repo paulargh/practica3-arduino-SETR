@@ -18,6 +18,13 @@ El circuito está montado sobre una placa Arduino Mega 2560:
 - **Sensor de temperatura y humedad (DHT11):** Conectado a 5V, GND y el pin de datos (DATA) al pin A5. El sensor contiene internamente su propia resistencia.
 
 ## Fotos del montaje:
+<img width="1280" height="887" alt="Foto1SETR" src="https://github.com/user-attachments/assets/ff5c7ad9-15e6-4257-9625-9a2e1dd8acc4" />
+
+
+<img width="1280" height="802" alt="Foto2SETR" src="https://github.com/user-attachments/assets/67111e8f-ee9c-4ef9-8cae-a2c58ecf975c" />
+
+
+<img width="1280" height="960" alt="Foto3SETR" src="https://github.com/user-attachments/assets/5d43c556-f538-4739-9550-d4c94b8bead2" />
 
 
 ## Descripción de la solución y los recursos utilizados:
