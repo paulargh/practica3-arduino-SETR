@@ -21,6 +21,7 @@ El circuito está montado sobre una placa Arduino Mega 2560:
 <img width="1280" height="887" alt="Foto1SETR" src="https://github.com/user-attachments/assets/ff5c7ad9-15e6-4257-9625-9a2e1dd8acc4" />
 
 
+
 <img width="1280" height="802" alt="Foto2SETR" src="https://github.com/user-attachments/assets/67111e8f-ee9c-4ef9-8cae-a2c58ecf975c" />
 
 
